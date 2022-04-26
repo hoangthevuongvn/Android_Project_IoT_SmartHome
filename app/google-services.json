@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "316482767314",
+    "project_id": "coking-iot-vuong-khiem",
+    "storage_bucket": "coking-iot-vuong-khiem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316482767314:android:220a3805dae3c54305a00b",
+        "android_client_info": {
+          "package_name": "com.example.cokingiotvuongkhiem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316482767314-heck8hiupona5ap51aqevnfaoc08v40j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk7Pf09vA1R9E15pgter-q_UMXws7odn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316482767314-heck8hiupona5ap51aqevnfaoc08v40j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

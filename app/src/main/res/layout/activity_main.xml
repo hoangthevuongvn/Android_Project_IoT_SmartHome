@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_weight="2"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+  <com.ekn.gruzer.gaugelibrary.ArcGauge
+      android:layout_weight="1"
+      android:id="@+id/idGauge"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"></com.ekn.gruzer.gaugelibrary.ArcGauge>
+  <com.ekn.gruzer.gaugelibrary.ArcGauge
+      android:layout_weight="1"
+      android:id="@+id/idGauge2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"></com.ekn.gruzer.gaugelibrary.ArcGauge>
+</LinearLayout>
+
+  <LinearLayout
+      android:layout_weight="1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <GridView
+        android:id="@+id/gridID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"></GridView>
+  </LinearLayout>
+
+
+
+</LinearLayout>
